@@ -54,7 +54,7 @@ type = flowMessageTypesTable.loc[header['type']][header['version']]
 #Identifica versao
 version = defVersion[header['version']+1]
 
-#Obtem tamanho do header
+#Obtem tamanho do pacote
 length = header['length']
 
 
